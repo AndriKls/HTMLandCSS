@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Using Internal CSS</title>
     <style>
         body {
-            font-family: "Trebuchet MS";
-            background-color: rgb(150, 20, 100)
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(150, 20, 100);
         }
-
-        h1,
-        i {
+        h1, i {
             color: aqua;
         }
-        .page{
+        a:hover, a:visited {
+            color: burlywood;
+        }
+        .page {
             border: 10px solid #123456;
             background-color: #efefef;
             padding: inherit;
         }
-
-        a:hover,
-        a:visited {
-            color: burlywood;
-        }
     </style>
 </head>
-
 <body>
     <h1>Potatoes</h1>
-    <p>Lorem ipsum, dolor <a href="https://www.delfi.ee/"> sit amet consectetur adipisicing </a>elit. Rerum debitis
-        recusandae qui autem fuga, itaque placeat
-        aut totam impedit in nihil quidem harum quae labore. Magni nihil ex atque cupiditate.</p>
-    <p>Lorem ipsum dolor sit amet <i> consectetur adipisicing </i> elit. Tenetur sit earum esse consequuntur saepe velit
-        architecto praesentium harum doloribus quas eius inventore unde porro a, qui ad facilis? Asperiores, iure!</p>
+    <p>Lorem <a href="https://www.delfi.ee/">ipsum dolor</a> sit amet consectetur adipisicing elit. Labore nam voluptas vel odio quam assumenda, doloremque qui, amet ea fugiat molestias ad architecto libero atque molestiae inventore quia nobis officiis?</p>
+    <p>Lorem ipsum dolor sit <i>amet consectetur adipisicing elit</i>. Quam, cum deserunt vitae delectus eligendi doloremque. Id perferendis sed debitis, temporibus architecto voluptatem expedita qui. Fugiat, magni. Assumenda omnis veniam minima.</p>
 
     <div class="page">
         <h1>Potatoes</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dignissimos possimus vero amet eligendi quod
-            incidunt ut voluptatibus obcaecati iste nostrum, fugit molestias numquam deserunt commodi doloribus magni ea
-            qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est inventore quo quibusdam nisi asperiores nostrum
-            blanditiis ab voluptatem perspiciatis sint cumque necessitatibus mollitia temporibus nulla corporis, sunt
-            rem quod modi.</p>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptates distinctio iusto possimus reprehenderit ex earum repellat soluta dignissimos vitae necessitatibus quasi hic sint inventore, assumenda autem officiis ullam numquam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione animi, fugit voluptatem ea eum ipsam aliquam similique et officiis cupiditate voluptas, excepturi quo totam amet ducimus quaerat unde explicabo libero.</p>
     </div>
-
 </body>
-
 </html>
